@@ -4,13 +4,9 @@ ul{
 
 .jumbotron{
   background: linear-gradient(0deg,#fff,transparent),
-              url('https://placeimg.com/1000/500/tech') no-repeat center;
+              url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ0trUVwplsTUTmx5FiPjhFlJyKwfz4GQ6rDg&usqp=CAU') no-repeat center;
   background-size:  cover;
-}
 
-.title-letter{
-  	font-family: 'Megrim', cursive;
-    font-weight: bold;
 }
 
 :target, .highlight:hover{
@@ -37,4 +33,48 @@ ul{
 }
 .twitter::after{
   content: url(./media/twitter.svg);
+}
+.nav{
+  margin:60px;
+  background-color: #e3f2fd;
+}
+#title{
+text-decoration-style: wavy;
+font-style: oblique;
+color: coral;
+font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+.title-letter{
+  text-decoration-style: wavy;
+  color: rgb(247, 134, 6);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding-top: 0.2px;
+  font-size: xx-large;
+  text-decoration-style: double;
+  
+}
+.title-content{
+  color: rgb(7, 80, 76);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: x-large;
+  background-blend-mode: darken;
+  backface-visibility: initial;
+ 
+}
+
+.nav-link
+{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: large;
+  color: orange;
+  font-weight: bold;
+  font-size:large;
+}
+
+.content-font
+{
+  color: rgb(7, 80, 76);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
 }
